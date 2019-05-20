@@ -1,0 +1,105 @@
+            #hehe #lit {
+            width: 40px;
+            height: 40px;
+            margin: 0;
+            padding: 0;
+            }
+            #jen {
+            position: absolute;
+            top: 0;
+            }
+            #scrol {
+            height: 400px;
+            overflow: scroll;
+            }
+            #ace {
+            font-size: 400%;
+            box-shadow: 100px;
+            }
+            .maki {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            opacity: 0.3;
+            display: flex;
+            background-color: black;
+            }
+            body {
+            font-family: "Lato", sans-serif;
+            }
+            .tab {
+            float: left;
+            width: 34%;
+            height: 300px;
+            }
+            .tab button {
+            display: block;
+            background-color: inherit;
+            color: white;
+            padding: 19px 13px;
+            width: 100%;
+            border: none;
+            outline: none;
+            text-align: left;
+            cursor: pointer;
+            border: 0;
+            border-radius: 20px;
+            transition: 0.3s;
+            font-size: 17px;
+            }
+            .tab button:hover {
+            background-color: #ccc;
+            color: black;
+            }
+            .tab button.active {
+            background-color: #ccc;
+            color: black;
+            }
+            .tabcontent {
+            float: left;
+            padding: 0px 12px;
+            color: black;
+            width: 70%;
+            border-left: none;
+            height: 415px;
+            }
+
+            @media only screen and (max-width: 700px) {
+            #menu {
+               padding: auto;
+               top: 20px;
+            }
+
+            body {
+               font-family: Arial;
+            }
+            .tab {
+               overflow: hidden;
+            }
+            .tab button {
+               background-color: inherit;
+               border: none;
+               outline: none;
+               cursor: pointer;
+               padding: 14px 16px;
+               transition: 0.3s;
+               font-size: 17px;
+            }
+            .tab button:hover {
+               background-color: #ddd;
+            }
+            .tab button.active {
+               background-color: #ccc;
+            }
+            .tabcontent {
+               display: none;
+               padding: 6px 12px;
+               margin-top: 20px;
+               border-top: none;
+            }
+            nav {
+               margin-bottom: 30px;
+            }
+            }
